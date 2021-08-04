@@ -1,0 +1,56 @@
+---
+title: "Vectors in R"
+author: "Charles Hendrickson"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Create a vector
+vec_a <- c(4,5)
+
+```
+
+## Another Code Chunk
+```{r, echo = FALSE}
+vec_b <- c(-3, 10)
+```
+
+```{r}
+vec_c <- vec_a + vec_b
+
+vec_c
+```
+
+
+```{r}
+
+vec_e <- 4 * vec_b
+
+vec_e
+
+```
+
+## If we use the asterisk
+
+```{r}
+vec_a * vec_b
+
+vec_a %*% vec_b
+```
+
+
+
+
+
+
+
+
+
+
+
+
